@@ -1,0 +1,14 @@
+body
+{
+    background-color: #0e7c8b;
+    color: #eef3f7;
+    margin-top: 1em;
+}
+.qbox 
+{
+    background-color: #37adbb;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}

@@ -1,0 +1,106 @@
+/* Style sheet created by jacob quirk for the collabbit website */
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    background-color: #5AA3FF;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+/* For the logo */
+.quincyLogo
+{
+    background-repeat: none;
+    background-image: url(quincyQ.png);
+    padding: 10px;
+    background-color: #54677F;
+    border-radius: 25px;
+    width: 50px;
+    margin: 1em;
+    height: auto;
+    float: left;
+}
+
+.headerBox
+{
+    border-radius: 10px;
+    background-color: #A6CEFF;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+/* using gradient id for stuff adding to background and using padding to make sure that it reaches the bottom of the page */
+#gradient
+{
+      background: linear-gradient(#5AA3FF, white);
+      padding-bottom: 125px;
+}
+
+.mainImage
+{
+    background-color: #53677F;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    min-width: 20%;
+    max-width: 50%;
+    height: auto;
+}
+
+nav
+{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #A6CEFF;
+    text-align: center;
+}
+
+h2
+{
+    opacity: 0.6;
+}
+
+main
+{
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    background-color: #A6CEFF;
+}
+
+.introParagraph
+{
+    margin-left: 10em;
+    margin-right: 10em;
+    overflow: hidden;
+}
+
+.centered
+{
+    text-align: center;
+    display: inline-block;
+}
+
+/* nav anchor elemt that removes the underlines from the links */
+
+nav a
+{
+    text-decoration: none;
+}
+
+footer
+{
+    border-radius: 10px;
+    padding: 1em;
+    background-color: #A6CEFF;
+    font-size: 0.6em;
+    font-style: italic;
+    text-align: center;
+}
