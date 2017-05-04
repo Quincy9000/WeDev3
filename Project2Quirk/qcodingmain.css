@@ -18,6 +18,9 @@
     black #181712
 */
 
+
+/* Html */
+
 * {
     background-color: #181712;
     color: #b0aba0;
@@ -44,23 +47,52 @@ body {
     border: 1px #757571 solid;
 }
 
+p
+{
+    font-size: 2em;
+}
+
+p a
+{
+    font-weight: bold;
+    color: white;
+}
+
+.qimg
+{
+    border-radius: 10px;
+    border: 2px solid white;
+    height: auto;
+    width: 100%;
+}
+
+
+/* Nav */
+
 nav {
     display: flex;
     justify-content: center;
+}
+
+nav a {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+ul, a {
+    text-decoration: none;
+    list-style: none;
 }
 
 li {
     display: inline;
 }
 
-ul, li {
-    list-style-type: none;
-    padding: 20px;
-}
+
+/* Main */
 
 .qcontent {
-    display: flex;
-    justify-content: center;
+   padding: 20px;
 }
 
 footer {
