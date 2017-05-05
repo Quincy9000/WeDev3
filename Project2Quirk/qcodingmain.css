@@ -22,11 +22,14 @@
 /* Html */
 
 * {
-    background-color: #181712;
     color: #b0aba0;
 }
 
 body {
+    /* background-color: #181712; */
+    background: #000000 url("pictures/background.JPG") repeat center;
+    /* made it really tiny so it looks ok */
+    background-size: 10px 10px;
     width: 80%;
     margin: auto;
 }
@@ -47,25 +50,32 @@ body {
     border: 1px #757571 solid;
 }
 
-p
-{
+p {
     font-size: 2em;
 }
 
-p a
-{
+p a {
     font-weight: bold;
     color: white;
 }
 
-.qimg
-{
+.qimg {
     border-radius: 10px;
     border: 2px solid white;
     height: auto;
     width: 100%;
 }
 
+dt
+{
+    padding: 40px;
+}
+
+dd
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 /* Nav */
 
@@ -88,11 +98,16 @@ li {
     display: inline;
 }
 
+dt a {
+    font-weight: bold;
+    color: white;
+}
+
 
 /* Main */
 
 .qcontent {
-   padding: 20px;
+    padding: 20px;
 }
 
 footer {
