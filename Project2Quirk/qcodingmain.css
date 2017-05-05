@@ -66,16 +66,15 @@ p a {
     width: 100%;
 }
 
-dt
-{
+dt {
     padding: 40px;
 }
 
-dd
-{
+dd {
     margin-left: 100px;
     margin-right: 100px;
 }
+
 
 /* Nav */
 
